@@ -8,3 +8,4 @@ number.sort((a,b)=>a-b)//assending order
 console.log(number);
 number.sort((a,b)=>b-a)//desending order
 console.log(number);
+consol.log(number.length)
