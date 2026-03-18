@@ -1,13 +1,13 @@
 {
     "editor.quickSuggestions": {
-        "other": false,
-        "comments": false,
-        "strings": false
+        "other": true,
+        "comments": true,
+        "strings": true
     },
-    "editor.suggestOnTriggerCharacters": false,
-    "editor.wordBasedSuggestions": "off",
-    "editor.parameterHints.enabled": false,
-    "editor.inlineSuggest.enabled": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.snippetSuggestions": "none"
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "on",
+    "editor.parameterHints.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "top"
 }
