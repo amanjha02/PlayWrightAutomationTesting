@@ -1,0 +1,15 @@
+// console.log(greeting)//Cannot access 'greeting' before initialization
+// let greeting="hello";
+// console.log(greeting)
+
+console.log(username);
+
+console.log("Pramod is awesome");
+console.log("Pramod is awesome");
+console.log("Pramod is awesome");
+console.log("Pramod is awesome");
+let username = "Dutta";
+console.log("Pramod is awesome");
+console.log("Pramod is awesome");
+console.log("Pramod is awesome");
+console.log(username);
