@@ -1,7 +1,7 @@
 
 console.log(greeting)
 
-if(true){
-    var greeting="Hello";
+if (true) {
+    var greeting = "Hello";
     console.log(greeting);
 }
