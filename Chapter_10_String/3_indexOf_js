@@ -1,0 +1,33 @@
+/* The indexOf() method is used to find the position (index) of
+the first occurrence of a value in a string or array.
+
+If the value is found, it returns the index.
+If the value is not found, it returns -1.
+for String 
+
+string.indexOf(searchValue, startPosition)
+
+for Array
+array.indexOf(searchElement, startPosition) */
+
+let text = "JavaScript";
+console.log(text.indexOf('s'))//-1
+console.log(text.indexOf('S'))//-1
+
+let text1 = "Welcome to JavaScript";
+
+console.log(text1.indexOf("Java"));
+
+let text2 = "Hello Hello";
+
+//starting from index
+console.log(text2.indexOf("Hello"));     // Search from index 0
+console.log(text2.indexOf("Hello", 1));  // Search from index 1
+
+/* Old Way to Check if a Value Exists
+
+Before includes() was introduced, developers used: */
+let text3 = "JavaScript";
+if (text3.indexOf('Script') != -1) {
+    console.log("Script is available")
+}
